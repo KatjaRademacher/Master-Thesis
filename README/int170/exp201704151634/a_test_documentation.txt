@@ -1,0 +1,14 @@
+Runs of Traffic light Control Simulation Description
+Date of Test Run: 15.04.2017 16:34
+
+Intersection: 170
+Start Date: 2016-01-01
+End Date: 2016-07-16
+Start Time: 08:45
+End Time: 08:45
+Special Days: all
+Weather Days: all
+Actuated TLC: false
+Fixed TLC: false
+Adaptive TLC: true
+Test Runs: 1

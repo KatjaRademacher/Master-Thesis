@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+<input>
+<net-file value="../../Simulation/int170/int170-adaptive.net.xml" />
+<route-files value="int170_vflows.rou.xml"/>
+<additional-files value="output_def_adaptive.add.xml,../../Simulation/int170/exp201704151634/int170-loops25m.det.xml" />
+</input>
+<time>
+<begin value="0" />
+<end value="900" />
+</time>
+<processing>
+<time-to-teleport value="-1" />
+</processing>
+</configuration>

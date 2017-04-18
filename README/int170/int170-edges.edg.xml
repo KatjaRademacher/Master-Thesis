@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <!-- South Circular Road West -->
+	<edge id="scrw_i170" from="scr_west_end" to="int170" type="a" length="60.0"/> <!-- to intersection -->
+	<edge id="i170_scrw" from="int170" to="scr_west_end" type="a" length="60.0"/> <!-- from intersection -->
+	<!-- South Circular Road East -->
+    <edge id="scre_i170" from="scr_east_end" to="int170" type="a" length="60.0"/> <!-- to intersection -->
+	<edge id="i170_scre" from="int170" to="scr_east_end" type="a" length="60.0"/> <!-- from intersection -->
+	<!-- Donore Avenue North -->
+    <edge id="donn_i170" from="donore_north_end" to="int170" type="b" length="60.0"/> <!-- to intersection -->
+	<edge id="i170_donn" from="int170" to="donore_north_end" type="b" length="60.0"/> <!-- from intersection -->
+	<!-- Donore Avenue South -->
+    <edge id="dons_i170" from="donore_south_end" to="int170" type="b" length="60.0"/> <!-- to intersection -->
+	<edge id="i170_dons" from="int170" to="donore_south_end" type="b" length="60.0"/> <!-- from intersection -->
+</edges>

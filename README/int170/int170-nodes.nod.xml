@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+   <node id="int170" x="0.0" y="0.0" type="traffic_light" /> <!-- default traffic light type is static  -->
+   <node id="scr_west_end" x="-60.0" y="0.0" />
+   <node id="scr_east_end" x="+60.0" y="0.0" />
+   <node id="donore_north_end" x="0.0" y="+60.0" />
+   <node id="donore_south_end" x="0.0" y="-60.0" />
+</nodes>

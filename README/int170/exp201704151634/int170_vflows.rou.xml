@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+<routeDistribution id="routedons_lan0">
+        <route id="route0" color="1,1,0" edges="dons_i170 i170_donn" probability="0.7"/>
+        <route id="route1" color="1,2,0" edges="dons_i170 i170_scrw" probability="0.3"/>
+    </routeDistribution>
+	<routeDistribution id="routedons_lan1">
+        <route id="route0" color="1,1,0" edges="dons_i170 i170_donn" probability="0.7"/>
+        <route id="route1" color="1,2,0" edges="dons_i170 i170_scre" probability="0.3"/>
+    </routeDistribution>
+	<routeDistribution id="routedonn_lan0">
+        <route id="route0" color="1,1,0" edges="donn_i170 i170_dons" probability="0.7"/>
+        <route id="route1" color="1,2,0" edges="donn_i170 i170_scre" probability="0.3"/>
+    </routeDistribution>
+	<routeDistribution id="routedonn_lan1">
+        <route id="route0" color="1,1,0" edges="donn_i170 i170_dons" probability="0.7"/>
+        <route id="route1" color="1,2,0" edges="donn_i170 i170_scrw" probability="0.3"/>
+    </routeDistribution>
+	<routeDistribution id="routescrw_lan0">
+        <route id="route0" color="1,1,0" edges="scrw_i170 i170_donn" probability="0.3"/>
+        <route id="route1" color="1,2,0" edges="scrw_i170 i170_scre" probability="0.7"/>
+    </routeDistribution>
+	<routeDistribution id="routescrw_lan1">
+        <route id="route0" color="1,1,0" edges="scrw_i170 i170_scre" probability="0.7"/>
+        <route id="route1" color="1,2,0" edges="scrw_i170 i170_dons" probability="0.3"/>
+    </routeDistribution>
+	<routeDistribution id="routescre_lan0">
+        <route id="route0" color="1,1,0" edges="scre_i170 i170_scrw" probability="0.7"/>
+        <route id="route1" color="1,2,0" edges="scre_i170 i170_dons" probability="0.3"/>
+    </routeDistribution>
+	<routeDistribution id="routescre_lan1">
+        <route id="route0" color="1,1,0" edges="scre_i170 i170_scrw" probability="0.7"/>
+        <route id="route1" color="1,2,0" edges="scre_i170 i170_donn" probability="0.3"/>
+    </routeDistribution>
+
+<flow id="flow0_det1" begin="0" end="900" number="25" route="routescrw_lan0" departLane="0" color="0,1,0"  />
+<flow id="flow0_det2" begin="0" end="900" number="50" route="routescrw_lan1" departLane="1" color="0,1,0"  />
+<flow id="flow0_det3" begin="0" end="900" number="39" route="routescre_lan0" departLane="0" color="1,0,1"  />
+<flow id="flow0_det4" begin="0" end="900" number="53" route="routescre_lan1" departLane="1" color="1,0,1"  />
+<flow id="flow0_det5" begin="0" end="900" number="17" route="routedons_lan0" departLane="0" color="1,0,0"  />
+<flow id="flow0_det6" begin="0" end="900" number="5" route="routedons_lan1" departLane="1" color="1,0,0"  />
+<flow id="flow0_det7" begin="0" end="900" number="41" route="routedonn_lan0" departLane="0" color="1,1,0"  />
+<flow id="flow0_det8" begin="0" end="900" number="42" route="routedonn_lan1" departLane="1" color="1,1,0"  />
+</routes>

@@ -1,0 +1,10 @@
+<additional>
+	<e1Detector id="north_0" lane="donn_i170_0" pos="-25" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="north_1" lane="donn_i170_1" pos="-25" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="south_0" lane="dons_i170_0" pos="-25" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="south_1" lane="dons_i170_1" pos="-25" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="west_0" lane="scrw_i170_0" pos="-25" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="west_1" lane="scrw_i170_1" pos="-25" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="east_0" lane="scre_i170_0" pos="-25" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="east_1" lane="scre_i170_1" pos="-25" freq="900" file="loops.out.xml" friendlyPos="x"/>
+</additional>

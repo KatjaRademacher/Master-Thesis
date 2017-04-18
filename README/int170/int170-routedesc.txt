@@ -1,0 +1,32 @@
+<routeDistribution id="routedons_lan0">
+        <route id="route0" color="1,1,0" edges="dons_i170 i170_donn" probability="0.7"/>
+        <route id="route1" color="1,2,0" edges="dons_i170 i170_scrw" probability="0.3"/>
+    </routeDistribution>
+	<routeDistribution id="routedons_lan1">
+        <route id="route0" color="1,1,0" edges="dons_i170 i170_donn" probability="0.7"/>
+        <route id="route1" color="1,2,0" edges="dons_i170 i170_scre" probability="0.3"/>
+    </routeDistribution>
+	<routeDistribution id="routedonn_lan0">
+        <route id="route0" color="1,1,0" edges="donn_i170 i170_dons" probability="0.7"/>
+        <route id="route1" color="1,2,0" edges="donn_i170 i170_scre" probability="0.3"/>
+    </routeDistribution>
+	<routeDistribution id="routedonn_lan1">
+        <route id="route0" color="1,1,0" edges="donn_i170 i170_dons" probability="0.7"/>
+        <route id="route1" color="1,2,0" edges="donn_i170 i170_scrw" probability="0.3"/>
+    </routeDistribution>
+	<routeDistribution id="routescrw_lan0">
+        <route id="route0" color="1,1,0" edges="scrw_i170 i170_donn" probability="0.3"/>
+        <route id="route1" color="1,2,0" edges="scrw_i170 i170_scre" probability="0.7"/>
+    </routeDistribution>
+	<routeDistribution id="routescrw_lan1">
+        <route id="route0" color="1,1,0" edges="scrw_i170 i170_scre" probability="0.7"/>
+        <route id="route1" color="1,2,0" edges="scrw_i170 i170_dons" probability="0.3"/>
+    </routeDistribution>
+	<routeDistribution id="routescre_lan0">
+        <route id="route0" color="1,1,0" edges="scre_i170 i170_scrw" probability="0.7"/>
+        <route id="route1" color="1,2,0" edges="scre_i170 i170_dons" probability="0.3"/>
+    </routeDistribution>
+	<routeDistribution id="routescre_lan1">
+        <route id="route0" color="1,1,0" edges="scre_i170 i170_scrw" probability="0.7"/>
+        <route id="route1" color="1,2,0" edges="scre_i170 i170_donn" probability="0.3"/>
+    </routeDistribution>

@@ -1,0 +1,18 @@
+<additional>
+	<e1Detector id="north_far_0" lane="donn_i170_0" pos="-50" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="north_far_1" lane="donn_i170_1" pos="-50" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="south_far_0" lane="dons_i170_0" pos="-50" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="south_far_1" lane="dons_i170_1" pos="-50" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="west_far_0" lane="scrw_i170_0" pos="-50" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="west_far_1" lane="scrw_i170_1" pos="-50" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="east_far_0" lane="scre_i170_0" pos="-50" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="east_far_1" lane="scre_i170_1" pos="-50" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="north_close_0" lane="donn_i170_0" pos="-3" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="north_close_1" lane="donn_i170_1" pos="-3" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="south_close_0" lane="dons_i170_0" pos="-3" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="south_close_1" lane="dons_i170_1" pos="-3" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="west_close_0" lane="scrw_i170_0" pos="-3" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="west_close_1" lane="scrw_i170_1" pos="-3" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="east_close_0" lane="scre_i170_0" pos="-3" freq="900" file="loops.out.xml" friendlyPos="x"/>
+	<e1Detector id="east_close_1" lane="scre_i170_1" pos="-3" freq="900" file="loops.out.xml" friendlyPos="x"/>
+</additional>

@@ -1,0 +1,11 @@
+<tlLogic id="int170" type="actuated" programID="0" offset="0">
+<!-- the locations of the tls are   NESW -->
+		<phase duration="40" minDur="20" maxDur="60" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="4" state="rrrrrryyyyggrrrrrryyyygg"/>
+        <phase duration="6" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
+        <phase duration="4" state="rrrrrrrrrryyrrrrrrrrrryy"/>
+        <phase duration="40" minDur="20" maxDur="60" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="4" state="yyyyggrrrrrryyyyggrrrrrr"/>
+        <phase duration="6" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
+        <phase duration="4" state="rrrryyrrrrrrrrrryyrrrrrr"/>
+</tlLogic>

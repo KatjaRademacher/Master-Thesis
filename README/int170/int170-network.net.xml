@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 11/06/16 09:57:35 by SUMO netconvert Version 0.27.1
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="int170-nodes.nod.xml"/>
+        <edge-files value="int170-edges.edg.xml"/>
+        <connection-files value="int170-connections.con.xml"/>
+        <tllogic-files value="int170-static.tll.xml"/>
+        <type-files value="int170-roadtypes.typ.xml"/>
+    </input>
+
+    <output>
+        <output-file value="int170-network.net.xml"/>
+    </output>
+
+    <processing>
+        <no-turnarounds value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <report>
+        <verbose value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<net version="0.27" lefthand="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="25.00,25.00" convBoundary="0.00,-0.00,50.00,50.00" origBoundary="-25.00,-25.00,25.00,25.00" projParameter="!"/>
+
+    <type id="a" priority="3" numLanes="2" speed="13.89"/>
+    <type id="b" priority="2" numLanes="2" speed="13.89"/>
+
+    <edge id=":int170_0" function="internal">
+        <lane id=":int170_0_0" index="0" speed="13.89" length="6.42" shape="20.05,16.95 19.86,18.31 19.27,19.27 18.31,19.86 16.95,20.05"/>
+        <lane id=":int170_0_1" index="1" speed="13.89" length="6.42" shape="20.05,16.95 19.86,19.75 19.27,21.75 18.31,22.95 16.95,23.35"/>
+    </edge>
+    <edge id=":int170_2" function="internal">
+        <lane id=":int170_2_0" index="0" speed="13.89" length="16.10" shape="20.05,16.95 20.05,33.05"/>
+        <lane id=":int170_2_1" index="1" speed="13.89" length="16.10" shape="23.35,16.95 23.35,33.05"/>
+    </edge>
+    <edge id=":int170_4" function="internal">
+        <lane id=":int170_4_0" index="0" speed="13.89" length="7.40" shape="23.35,16.95 23.96,22.64 25.05,25.08"/>
+        <lane id=":int170_4_1" index="1" speed="13.89" length="7.40" shape="23.35,16.95 23.96,21.19 25.05,23.02"/>
+    </edge>
+    <edge id=":int170_24" function="internal">
+        <lane id=":int170_24_0" index="0" speed="13.89" length="9.98" shape="25.05,25.08 25.78,26.70 28.81,29.14 33.05,29.95"/>
+    </edge>
+    <edge id=":int170_25" function="internal">
+        <lane id=":int170_25_0" index="0" speed="13.89" length="9.23" shape="25.05,23.02 25.78,24.22 28.81,26.04 33.05,26.65"/>
+    </edge>
+    <edge id=":int170_6" function="internal">
+        <lane id=":int170_6_0" index="0" speed="13.89" length="6.42" shape="33.05,20.05 31.69,19.86 30.73,19.27 30.14,18.31 29.95,16.95"/>
+        <lane id=":int170_6_1" index="1" speed="13.89" length="6.42" shape="33.05,20.05 30.25,19.86 28.25,19.27 27.05,18.31 26.65,16.95"/>
+    </edge>
+    <edge id=":int170_8" function="internal">
+        <lane id=":int170_8_0" index="0" speed="13.89" length="16.10" shape="33.05,20.05 16.95,20.05"/>
+        <lane id=":int170_8_1" index="1" speed="13.89" length="16.10" shape="33.05,23.35 16.95,23.35"/>
+    </edge>
+    <edge id=":int170_10" function="internal">
+        <lane id=":int170_10_0" index="0" speed="13.89" length="7.40" shape="33.05,23.35 27.36,23.96 24.92,25.05"/>
+        <lane id=":int170_10_1" index="1" speed="13.89" length="7.40" shape="33.05,23.35 28.81,23.96 26.98,25.05"/>
+    </edge>
+    <edge id=":int170_26" function="internal">
+        <lane id=":int170_26_0" index="0" speed="13.89" length="9.98" shape="24.92,25.05 23.30,25.78 20.86,28.81 20.05,33.05"/>
+    </edge>
+    <edge id=":int170_27" function="internal">
+        <lane id=":int170_27_0" index="0" speed="13.89" length="9.23" shape="26.98,25.05 25.78,25.78 23.96,28.81 23.35,33.05"/>
+    </edge>
+    <edge id=":int170_12" function="internal">
+        <lane id=":int170_12_0" index="0" speed="13.89" length="6.42" shape="29.95,33.05 30.14,31.69 30.73,30.73 31.69,30.14 33.05,29.95"/>
+        <lane id=":int170_12_1" index="1" speed="13.89" length="6.42" shape="29.95,33.05 30.14,30.25 30.73,28.25 31.69,27.05 33.05,26.65"/>
+    </edge>
+    <edge id=":int170_14" function="internal">
+        <lane id=":int170_14_0" index="0" speed="13.89" length="16.10" shape="29.95,33.05 29.95,16.95"/>
+        <lane id=":int170_14_1" index="1" speed="13.89" length="16.10" shape="26.65,33.05 26.65,16.95"/>
+    </edge>
+    <edge id=":int170_16" function="internal">
+        <lane id=":int170_16_0" index="0" speed="13.89" length="7.40" shape="26.65,33.05 26.04,27.36 24.95,24.92"/>
+        <lane id=":int170_16_1" index="1" speed="13.89" length="7.40" shape="26.65,33.05 26.04,28.81 24.95,26.98"/>
+    </edge>
+    <edge id=":int170_28" function="internal">
+        <lane id=":int170_28_0" index="0" speed="13.89" length="9.98" shape="24.95,24.92 24.22,23.30 21.19,20.86 16.95,20.05"/>
+    </edge>
+    <edge id=":int170_29" function="internal">
+        <lane id=":int170_29_0" index="0" speed="13.89" length="9.23" shape="24.95,26.98 24.22,25.78 21.19,23.96 16.95,23.35"/>
+    </edge>
+    <edge id=":int170_18" function="internal">
+        <lane id=":int170_18_0" index="0" speed="13.89" length="6.42" shape="16.95,29.95 18.31,30.14 19.27,30.73 19.86,31.69 20.05,33.05"/>
+        <lane id=":int170_18_1" index="1" speed="13.89" length="6.42" shape="16.95,29.95 19.75,30.14 21.75,30.73 22.95,31.69 23.35,33.05"/>
+    </edge>
+    <edge id=":int170_20" function="internal">
+        <lane id=":int170_20_0" index="0" speed="13.89" length="16.10" shape="16.95,29.95 33.05,29.95"/>
+        <lane id=":int170_20_1" index="1" speed="13.89" length="16.10" shape="16.95,26.65 33.05,26.65"/>
+    </edge>
+    <edge id=":int170_22" function="internal">
+        <lane id=":int170_22_0" index="0" speed="13.89" length="7.40" shape="16.95,26.65 22.64,26.04 25.08,24.95"/>
+        <lane id=":int170_22_1" index="1" speed="13.89" length="7.40" shape="16.95,26.65 21.19,26.04 23.02,24.95"/>
+    </edge>
+    <edge id=":int170_30" function="internal">
+        <lane id=":int170_30_0" index="0" speed="13.89" length="9.98" shape="25.08,24.95 26.70,24.22 29.14,21.19 29.95,16.95"/>
+    </edge>
+    <edge id=":int170_31" function="internal">
+        <lane id=":int170_31_0" index="0" speed="13.89" length="9.23" shape="23.02,24.95 24.22,24.22 26.04,21.19 26.65,16.95"/>
+    </edge>
+
+    <edge id="donn_i170" from="donore_north_end" to="int170" priority="2" type="b">
+        <lane id="donn_i170_0" index="0" speed="13.89" length="16.95" shape="29.95,50.00 29.95,33.05"/>
+        <lane id="donn_i170_1" index="1" speed="13.89" length="16.95" shape="26.65,50.00 26.65,33.05"/>
+    </edge>
+    <edge id="dons_i170" from="donore_south_end" to="int170" priority="2" type="b">
+        <lane id="dons_i170_0" index="0" speed="13.89" length="16.95" shape="20.05,-0.00 20.05,16.95"/>
+        <lane id="dons_i170_1" index="1" speed="13.89" length="16.95" shape="23.35,-0.00 23.35,16.95"/>
+    </edge>
+    <edge id="i170_donn" from="int170" to="donore_north_end" priority="2" type="b">
+        <lane id="i170_donn_0" index="0" speed="13.89" length="16.95" shape="20.05,33.05 20.05,50.00"/>
+        <lane id="i170_donn_1" index="1" speed="13.89" length="16.95" shape="23.35,33.05 23.35,50.00"/>
+    </edge>
+    <edge id="i170_dons" from="int170" to="donore_south_end" priority="2" type="b">
+        <lane id="i170_dons_0" index="0" speed="13.89" length="16.95" shape="29.95,16.95 29.95,-0.00"/>
+        <lane id="i170_dons_1" index="1" speed="13.89" length="16.95" shape="26.65,16.95 26.65,-0.00"/>
+    </edge>
+    <edge id="i170_scre" from="int170" to="scr_east_end" priority="3" type="a">
+        <lane id="i170_scre_0" index="0" speed="13.89" length="16.95" shape="33.05,29.95 50.00,29.95"/>
+        <lane id="i170_scre_1" index="1" speed="13.89" length="16.95" shape="33.05,26.65 50.00,26.65"/>
+    </edge>
+    <edge id="i170_scrw" from="int170" to="scr_west_end" priority="3" type="a">
+        <lane id="i170_scrw_0" index="0" speed="13.89" length="16.95" shape="16.95,20.05 0.00,20.05"/>
+        <lane id="i170_scrw_1" index="1" speed="13.89" length="16.95" shape="16.95,23.35 0.00,23.35"/>
+    </edge>
+    <edge id="scre_i170" from="scr_east_end" to="int170" priority="3" type="a">
+        <lane id="scre_i170_0" index="0" speed="13.89" length="16.95" shape="50.00,20.05 33.05,20.05"/>
+        <lane id="scre_i170_1" index="1" speed="13.89" length="16.95" shape="50.00,23.35 33.05,23.35"/>
+    </edge>
+    <edge id="scrw_i170" from="scr_west_end" to="int170" priority="3" type="a">
+        <lane id="scrw_i170_0" index="0" speed="13.89" length="16.95" shape="0.00,29.95 16.95,29.95"/>
+        <lane id="scrw_i170_1" index="1" speed="13.89" length="16.95" shape="0.00,26.65 16.95,26.65"/>
+    </edge>
+
+    <tlLogic id="int170" type="static" programID="0" offset="0">
+        <phase duration="31" state="rrrrrrGGGGggrrrrrrGGGGgg"/>
+        <phase duration="4" state="rrrrrryyyyggrrrrrryyyygg"/>
+        <phase duration="6" state="rrrrrrrrrrGGrrrrrrrrrrGG"/>
+        <phase duration="4" state="rrrrrrrrrryyrrrrrrrrrryy"/>
+        <phase duration="31" state="GGGGggrrrrrrGGGGggrrrrrr"/>
+        <phase duration="4" state="yyyyggrrrrrryyyyggrrrrrr"/>
+        <phase duration="6" state="rrrrGGrrrrrrrrrrGGrrrrrr"/>
+        <phase duration="4" state="rrrryyrrrrrrrrrryyrrrrrr"/>
+    </tlLogic>
+
+    <junction id="donore_north_end" type="dead_end" x="25.00" y="50.00" incLanes="i170_donn_0 i170_donn_1" intLanes="" shape="25.05,50.00 31.55,50.00 18.45,50.00 24.95,50.00"/>
+    <junction id="donore_south_end" type="dead_end" x="25.00" y="-0.00" incLanes="i170_dons_0 i170_dons_1" intLanes="" shape="24.95,-0.00 18.45,-0.00 31.55,-0.00 25.05,-0.00"/>
+    <junction id="int170" type="traffic_light" x="25.00" y="25.00" incLanes="dons_i170_0 dons_i170_1 scre_i170_0 scre_i170_1 donn_i170_0 donn_i170_1 scrw_i170_0 scrw_i170_1" intLanes=":int170_0_0 :int170_0_1 :int170_2_0 :int170_2_1 :int170_24_0 :int170_25_0 :int170_6_0 :int170_6_1 :int170_8_0 :int170_8_1 :int170_26_0 :int170_27_0 :int170_12_0 :int170_12_1 :int170_14_0 :int170_14_1 :int170_28_0 :int170_29_0 :int170_18_0 :int170_18_1 :int170_20_0 :int170_20_1 :int170_30_0 :int170_31_0" shape="18.45,16.95 31.55,16.95 33.05,18.45 33.05,31.55 31.55,33.05 18.45,33.05 16.95,31.55 16.95,18.45">
+        <request index="0" response="000000000000001100000000" foes="000000110000001100111000" cont="0"/>
+        <request index="1" response="000000000000001100000000" foes="000000110000001100111000" cont="0"/>
+        <request index="2" response="111111000000111100000000" foes="111111110000111100000000" cont="0"/>
+        <request index="3" response="111111000000111100000000" foes="111111110000111100000000" cont="0"/>
+        <request index="4" response="111100001111111100000000" foes="111100001111111100000111" cont="1"/>
+        <request index="5" response="111100001111111100000000" foes="111100001111111100000111" cont="1"/>
+        <request index="6" response="000000000000000000000000" foes="110000001100111000000000" cont="0"/>
+        <request index="7" response="000000000000000000000000" foes="110000001100111000000000" cont="0"/>
+        <request index="8" response="000000000000000000000000" foes="110000111100000000111111" cont="0"/>
+        <request index="9" response="000000000000000000000000" foes="110000111100000000111111" cont="0"/>
+        <request index="10" response="001111000000000000000000" foes="001111111100000111111100" cont="1"/>
+        <request index="11" response="001111000000000000000000" foes="001111111100000111111100" cont="1"/>
+        <request index="12" response="001100000000000000000000" foes="001100111000000000110000" cont="0"/>
+        <request index="13" response="001100000000000000000000" foes="001100111000000000110000" cont="0"/>
+        <request index="14" response="111100000000111111000000" foes="111100000000111111110000" cont="0"/>
+        <request index="15" response="111100000000111111000000" foes="111100000000111111110000" cont="0"/>
+        <request index="16" response="111100000000111100001111" foes="111100000111111100001111" cont="1"/>
+        <request index="17" response="111100000000111100001111" foes="111100000111111100001111" cont="1"/>
+        <request index="18" response="000000000000000000000000" foes="111000000000110000001100" cont="0"/>
+        <request index="19" response="000000000000000000000000" foes="111000000000110000001100" cont="0"/>
+        <request index="20" response="000000000000000000000000" foes="000000111111110000111100" cont="0"/>
+        <request index="21" response="000000000000000000000000" foes="000000111111110000111100" cont="0"/>
+        <request index="22" response="000000000000001111000000" foes="000111111100001111111100" cont="1"/>
+        <request index="23" response="000000000000001111000000" foes="000111111100001111111100" cont="1"/>
+    </junction>
+    <junction id="scr_east_end" type="dead_end" x="50.00" y="25.00" incLanes="i170_scre_0 i170_scre_1" intLanes="" shape="50.00,24.95 50.00,18.45 50.00,31.55 50.00,25.05"/>
+    <junction id="scr_west_end" type="dead_end" x="0.00" y="25.00" incLanes="i170_scrw_0 i170_scrw_1" intLanes="" shape="0.00,25.05 0.00,31.55 0.00,18.45 0.00,24.95"/>
+
+    <junction id=":int170_24_0" type="internal" x="25.05" y="25.08" incLanes=":int170_4_0 donn_i170_0 donn_i170_1" intLanes=":int170_8_0 :int170_8_1 :int170_10_0 :int170_10_1 :int170_12_0 :int170_12_1 :int170_14_0 :int170_14_1 :int170_20_0 :int170_20_1 :int170_22_0 :int170_22_1"/>
+    <junction id=":int170_25_0" type="internal" x="25.05" y="23.02" incLanes=":int170_4_1 donn_i170_0 donn_i170_1" intLanes=":int170_8_0 :int170_8_1 :int170_10_0 :int170_10_1 :int170_12_0 :int170_12_1 :int170_14_0 :int170_14_1 :int170_20_0 :int170_20_1 :int170_22_0 :int170_22_1"/>
+    <junction id=":int170_26_0" type="internal" x="24.92" y="25.05" incLanes=":int170_10_0 scrw_i170_0 scrw_i170_1" intLanes=":int170_2_0 :int170_2_1 :int170_4_0 :int170_4_1 :int170_14_0 :int170_14_1 :int170_16_0 :int170_16_1 :int170_18_0 :int170_18_1 :int170_20_0 :int170_20_1"/>
+    <junction id=":int170_27_0" type="internal" x="26.98" y="25.05" incLanes=":int170_10_1 scrw_i170_0 scrw_i170_1" intLanes=":int170_2_0 :int170_2_1 :int170_4_0 :int170_4_1 :int170_14_0 :int170_14_1 :int170_16_0 :int170_16_1 :int170_18_0 :int170_18_1 :int170_20_0 :int170_20_1"/>
+    <junction id=":int170_28_0" type="internal" x="24.95" y="24.92" incLanes=":int170_16_0 dons_i170_0 dons_i170_1" intLanes=":int170_0_0 :int170_0_1 :int170_2_0 :int170_2_1 :int170_8_0 :int170_8_1 :int170_10_0 :int170_10_1 :int170_20_0 :int170_20_1 :int170_22_0 :int170_22_1"/>
+    <junction id=":int170_29_0" type="internal" x="24.95" y="26.98" incLanes=":int170_16_1 dons_i170_0 dons_i170_1" intLanes=":int170_0_0 :int170_0_1 :int170_2_0 :int170_2_1 :int170_8_0 :int170_8_1 :int170_10_0 :int170_10_1 :int170_20_0 :int170_20_1 :int170_22_0 :int170_22_1"/>
+    <junction id=":int170_30_0" type="internal" x="25.08" y="24.95" incLanes=":int170_22_0 scre_i170_0 scre_i170_1" intLanes=":int170_2_0 :int170_2_1 :int170_4_0 :int170_4_1 :int170_6_0 :int170_6_1 :int170_8_0 :int170_8_1 :int170_14_0 :int170_14_1 :int170_16_0 :int170_16_1"/>
+    <junction id=":int170_31_0" type="internal" x="23.02" y="24.95" incLanes=":int170_22_1 scre_i170_0 scre_i170_1" intLanes=":int170_2_0 :int170_2_1 :int170_4_0 :int170_4_1 :int170_6_0 :int170_6_1 :int170_8_0 :int170_8_1 :int170_14_0 :int170_14_1 :int170_16_0 :int170_16_1"/>
+
+    <connection from="donn_i170" to="i170_scre" fromLane="0" toLane="0" via=":int170_12_0" tl="int170" linkIndex="12" dir="l" state="o"/>
+    <connection from="donn_i170" to="i170_scre" fromLane="0" toLane="1" via=":int170_12_1" tl="int170" linkIndex="13" dir="l" state="o"/>
+    <connection from="donn_i170" to="i170_dons" fromLane="0" toLane="0" via=":int170_14_0" tl="int170" linkIndex="14" dir="s" state="o"/>
+    <connection from="donn_i170" to="i170_dons" fromLane="1" toLane="1" via=":int170_14_1" tl="int170" linkIndex="15" dir="s" state="o"/>
+    <connection from="donn_i170" to="i170_scrw" fromLane="1" toLane="0" via=":int170_16_0" tl="int170" linkIndex="16" dir="r" state="o"/>
+    <connection from="donn_i170" to="i170_scrw" fromLane="1" toLane="1" via=":int170_16_1" tl="int170" linkIndex="17" dir="r" state="o"/>
+    <connection from="dons_i170" to="i170_scrw" fromLane="0" toLane="0" via=":int170_0_0" tl="int170" linkIndex="0" dir="l" state="o"/>
+    <connection from="dons_i170" to="i170_scrw" fromLane="0" toLane="1" via=":int170_0_1" tl="int170" linkIndex="1" dir="l" state="o"/>
+    <connection from="dons_i170" to="i170_donn" fromLane="0" toLane="0" via=":int170_2_0" tl="int170" linkIndex="2" dir="s" state="o"/>
+    <connection from="dons_i170" to="i170_donn" fromLane="1" toLane="1" via=":int170_2_1" tl="int170" linkIndex="3" dir="s" state="o"/>
+    <connection from="dons_i170" to="i170_scre" fromLane="1" toLane="0" via=":int170_4_0" tl="int170" linkIndex="4" dir="r" state="o"/>
+    <connection from="dons_i170" to="i170_scre" fromLane="1" toLane="1" via=":int170_4_1" tl="int170" linkIndex="5" dir="r" state="o"/>
+    <connection from="scre_i170" to="i170_dons" fromLane="0" toLane="0" via=":int170_6_0" tl="int170" linkIndex="6" dir="l" state="o"/>
+    <connection from="scre_i170" to="i170_dons" fromLane="0" toLane="1" via=":int170_6_1" tl="int170" linkIndex="7" dir="l" state="o"/>
+    <connection from="scre_i170" to="i170_scrw" fromLane="0" toLane="0" via=":int170_8_0" tl="int170" linkIndex="8" dir="s" state="o"/>
+    <connection from="scre_i170" to="i170_scrw" fromLane="1" toLane="1" via=":int170_8_1" tl="int170" linkIndex="9" dir="s" state="o"/>
+    <connection from="scre_i170" to="i170_donn" fromLane="1" toLane="0" via=":int170_10_0" tl="int170" linkIndex="10" dir="r" state="o"/>
+    <connection from="scre_i170" to="i170_donn" fromLane="1" toLane="1" via=":int170_10_1" tl="int170" linkIndex="11" dir="r" state="o"/>
+    <connection from="scrw_i170" to="i170_donn" fromLane="0" toLane="0" via=":int170_18_0" tl="int170" linkIndex="18" dir="l" state="o"/>
+    <connection from="scrw_i170" to="i170_donn" fromLane="0" toLane="1" via=":int170_18_1" tl="int170" linkIndex="19" dir="l" state="o"/>
+    <connection from="scrw_i170" to="i170_scre" fromLane="0" toLane="0" via=":int170_20_0" tl="int170" linkIndex="20" dir="s" state="o"/>
+    <connection from="scrw_i170" to="i170_scre" fromLane="1" toLane="1" via=":int170_20_1" tl="int170" linkIndex="21" dir="s" state="o"/>
+    <connection from="scrw_i170" to="i170_dons" fromLane="1" toLane="0" via=":int170_22_0" tl="int170" linkIndex="22" dir="r" state="o"/>
+    <connection from="scrw_i170" to="i170_dons" fromLane="1" toLane="1" via=":int170_22_1" tl="int170" linkIndex="23" dir="r" state="o"/>
+
+    <connection from=":int170_0" to="i170_scrw" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int170_0" to="i170_scrw" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":int170_2" to="i170_donn" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int170_2" to="i170_donn" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":int170_4" to="i170_scre" fromLane="0" toLane="0" via=":int170_24_0" dir="s" state="m"/>
+    <connection from=":int170_24" to="i170_scre" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int170_4" to="i170_scre" fromLane="1" toLane="1" via=":int170_25_0" dir="s" state="m"/>
+    <connection from=":int170_25" to="i170_scre" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":int170_6" to="i170_dons" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int170_6" to="i170_dons" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":int170_8" to="i170_scrw" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int170_8" to="i170_scrw" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":int170_10" to="i170_donn" fromLane="0" toLane="0" via=":int170_26_0" dir="s" state="m"/>
+    <connection from=":int170_26" to="i170_donn" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int170_10" to="i170_donn" fromLane="1" toLane="1" via=":int170_27_0" dir="s" state="m"/>
+    <connection from=":int170_27" to="i170_donn" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":int170_12" to="i170_scre" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int170_12" to="i170_scre" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":int170_14" to="i170_dons" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int170_14" to="i170_dons" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":int170_16" to="i170_scrw" fromLane="0" toLane="0" via=":int170_28_0" dir="s" state="m"/>
+    <connection from=":int170_28" to="i170_scrw" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int170_16" to="i170_scrw" fromLane="1" toLane="1" via=":int170_29_0" dir="s" state="m"/>
+    <connection from=":int170_29" to="i170_scrw" fromLane="0" toLane="1" dir="s" state="M"/>
+    <connection from=":int170_18" to="i170_donn" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int170_18" to="i170_donn" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":int170_20" to="i170_scre" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int170_20" to="i170_scre" fromLane="1" toLane="1" dir="s" state="M"/>
+    <connection from=":int170_22" to="i170_dons" fromLane="0" toLane="0" via=":int170_30_0" dir="s" state="m"/>
+    <connection from=":int170_30" to="i170_dons" fromLane="0" toLane="0" dir="s" state="M"/>
+    <connection from=":int170_22" to="i170_dons" fromLane="1" toLane="1" via=":int170_31_0" dir="s" state="m"/>
+    <connection from=":int170_31" to="i170_dons" fromLane="0" toLane="1" dir="s" state="M"/>
+
+</net>

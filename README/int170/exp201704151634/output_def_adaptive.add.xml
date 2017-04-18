@@ -1,0 +1,4 @@
+<additional>
+<edgeData id="edgedump1" file="edgedata.out.xml" freq="60" excludeEmpty="true" />
+<timedEvent type="SaveTLSSwitchStates" source="int170" dest="tlsdata.out.xml"/>
+</additional>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+    <connection from="scrw_i170" to="i170_donn" fromLane="0" toLane="0"/>
+    <connection from="scrw_i170" to="i170_donn" fromLane="0" toLane="1"/>
+    <connection from="scrw_i170" to="i170_scre" fromLane="0" toLane="0"/>
+    <connection from="scrw_i170" to="i170_scre" fromLane="1" toLane="1"/>
+    <connection from="scrw_i170" to="i170_dons" fromLane="1" toLane="0"/>
+	<connection from="scrw_i170" to="i170_dons" fromLane="1" toLane="1"/>
+	<connection from="donn_i170" to="i170_scre" fromLane="0" toLane="0"/>
+	<connection from="donn_i170" to="i170_scre" fromLane="0" toLane="1"/>
+    <connection from="donn_i170" to="i170_dons" fromLane="0" toLane="0"/>
+    <connection from="donn_i170" to="i170_dons" fromLane="1" toLane="1"/>
+    <connection from="donn_i170" to="i170_scrw" fromLane="1" toLane="0"/>
+	<connection from="donn_i170" to="i170_scrw" fromLane="1" toLane="1"/>
+    <connection from="dons_i170" to="i170_scrw" fromLane="0" toLane="0"/>
+	<connection from="dons_i170" to="i170_scrw" fromLane="0" toLane="1"/>
+    <connection from="dons_i170" to="i170_donn" fromLane="0" toLane="0"/>
+    <connection from="dons_i170" to="i170_donn" fromLane="1" toLane="1"/>
+    <connection from="dons_i170" to="i170_scre" fromLane="1" toLane="0"/>
+	<connection from="dons_i170" to="i170_scre" fromLane="1" toLane="1"/>
+    <connection from="scre_i170" to="i170_dons" fromLane="0" toLane="0"/>
+	<connection from="scre_i170" to="i170_dons" fromLane="0" toLane="1"/>
+    <connection from="scre_i170" to="i170_scrw" fromLane="0" toLane="0"/>
+    <connection from="scre_i170" to="i170_scrw" fromLane="1" toLane="1"/>
+    <connection from="scre_i170" to="i170_donn" fromLane="1" toLane="0"/>
+	<connection from="scre_i170" to="i170_donn" fromLane="1" toLane="1"/>
+</connections>
