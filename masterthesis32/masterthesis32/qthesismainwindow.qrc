@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/QThesisMainWindow">
+        <file>Resources/dit_icon.ico</file>
+    </qresource>
+</RCC>

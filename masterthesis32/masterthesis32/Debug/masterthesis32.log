@@ -1,0 +1,25 @@
+﻿Build started 15.04.2017 16:27:08.
+     1>Project "C:\Users\HP\Documents\DIT\Masterarbeit\Git-project\masterthesis32\masterthesis32\masterthesis32.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Qt\Qt5.2.1\5.2.1\msvc2012 /I.\GeneratedFiles /I. /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtCore /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtGui /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtSql /IC:\Qt\Qt5.2.1\5.2.1\msvc2012\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_SQL_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt qthesismainwindow.cpp
+         qthesismainwindow.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\HP\Documents\DIT\Masterarbeit\Git-project\masterthesis32\Win32\Debug\\masterthesis32.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.2.1\5.2.1\msvc2012\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Sqld.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\HP\Documents\DIT\Masterarbeit\Git-project\masterthesis32\Win32\Debug\masterthesis32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\HP\Documents\DIT\Masterarbeit\Git-project\masterthesis32\Win32\Debug\masterthesis32.lib" /MACHINE:X86 /SAFESEH Debug\masterthesis32.res
+         Debug\moc_qthesisdbinterface.obj
+         Debug\moc_qthesisflowdatagenerator.obj
+         Debug\moc_qthesismainwindow.obj
+         Debug\moc_qthesisrouteflow.obj
+         Debug\moc_qthesissimulationdatainfo.obj
+         Debug\qrc_qthesismainwindow.obj
+         Debug\main.obj
+         Debug\qthesisdbinterface.obj
+         Debug\qthesisflowdatagenerator.obj
+         Debug\qthesismainwindow.obj
+         Debug\qthesisrouteflow.obj
+         Debug\qthesissimulationdatainfo.obj
+         masterthesis32.vcxproj -> C:\Users\HP\Documents\DIT\Masterarbeit\Git-project\masterthesis32\Win32\Debug\masterthesis32.exe
+     1>Done Building Project "C:\Users\HP\Documents\DIT\Masterarbeit\Git-project\masterthesis32\masterthesis32\masterthesis32.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.82
