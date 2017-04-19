@@ -1,3 +1,11 @@
+/**
+* class to create the connection to the MS Access DB and getting the needed data from there
+* allows various functions for different tables, opening and closing the connection
+*
+* @autor: Katja Rademacher
+* @date: 29.11.2016
+*/
+
 #ifndef QTHESISDBINTERFACE_H
 #define QTHESISDBINTERFACE_H
 

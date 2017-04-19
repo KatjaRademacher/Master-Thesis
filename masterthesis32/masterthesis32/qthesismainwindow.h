@@ -1,3 +1,12 @@
+/**
+* class to have the main window and ui properties and functions
+* includes a connect ui class that holds the widgets for qt
+* works with the signal and slot idea to handle the events on the ui and run the simulations
+*
+* @autor: Katja Rademacher
+* @date: 29.11.2016
+*/
+
 #ifndef QTHESISMAINWINDOW_H
 #define QTHESISMAINWINDOW_H
 

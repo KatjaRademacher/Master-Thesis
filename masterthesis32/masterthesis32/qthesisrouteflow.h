@@ -1,3 +1,11 @@
+/**
+* helpful class to define and keep route flow information organised
+* includes a function to convert it into a string needed for a SUMO route file
+*
+* @autor: Katja Rademacher
+* @date: 29.11.2016
+*/
+
 #ifndef QTHESISROUTEFLOW_H
 #define QTHESISROUTEFLOW_H
 

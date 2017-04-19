@@ -1,6 +1,9 @@
+/**
+* @autor: Katja Rademacher
+* @date: 29.11.2016
+*/
+
 #include "qthesisflowdatagenerator.h"
-
-
 
 #include <qfile.h>
 #include <qdir.h>

@@ -46,6 +46,10 @@ lastGreenPhaseDurations = {'NS': 30, 'EW': 30}
 endTime = 3600
 intersectionId = "int"
 
+#read network for edges assigning to a specific direction
+#also get the inductive loops added to each direction
+#those loops have to include the direction 'strings' into the loop id
+# this is used for assigning the loop to a direction
 def read_NetworkData(simulationPath):
     fileBase = os.path.dirname(simulationPath)+ '/' + intersectionId
     ilArray = sumolib.sensors.inductive_loop.read(fileBase + "-loops25m.det.xml")
@@ -87,47 +91,18 @@ def getEdgeDensityEW():
         density += traci.edge.getLastStepOccupancy(edgeId)
     return density
 
-def determineNextGreenPhase( activePhase, vehiclesEW, vehiclesNS):
+def determineNextGreenPhase( activePhase):
     nextPhase = activePhase
     if activePhase == 2:
-        if vehiclesEW >= vehiclesNS:
-            nextPhase = 0
-        else: 
-            if (lastGreenPhaseDurations['NS'] >= maxDuration):
-                nextPhase = 0
+        nextPhase = 0
     else:
-        if vehiclesEW <= vehiclesNS:
-            nextPhase = 2
-        else: 
-            if (lastGreenPhaseDurations['EW'] >= maxDuration):
-                nextPhase = 2
+        nextPhase = 2
     return nextPhase    
 
-def determinePhaseLength(activePhase, newGreenPhase, vehiclesEW, vehiclesNS):
-    #determine phase length based on density on roads and stopping vehicles
-    #densityNS = getEdgeDensityNS()
-    #densityEW = getEdgeDensityEW()
+def determinePhaseLength():
     duration = minDuration
-    #print("EW:", vehiclesEW, densityEW) 
-    #print("NS:", vehiclesNS, densityNS)
-    if (activePhase == newGreenPhase):
-        if activePhase == 0: #EW
-            duration /= vehiclesEW
-        else: 
-            duration /= vehiclesNS   
-    if duration > maxDuration:
-        duration = maxDuration   
     return int(duration)
 
-def setLastGreenPhaseDuration(activePhase, nextPhase, duration):
-    if nextPhase == 2:
-        if nextPhase == activePhase:
-            lastGreenPhaseDurations['NS'] += duration
-        else: lastGreenPhaseDurations['NS'] = duration
-    else: #nextPhase = 0
-        if nextPhase == activePhase:
-            lastGreenPhaseDurations['EW'] += duration
-        else: lastGreenPhaseDurations['EW'] = duration
 
 def run():
     vehVolumeNS = 0
@@ -143,8 +118,7 @@ def run():
     traci.init(PORT)
     step = 0
     # we start with phase 2 where EW has green
-    #traci.trafficlights.setPhase("0", 2)
-    while step < endTime:
+    while step < endTime-1:
         traci.simulationStep()
         vehVolumeEW += getNumberOfApproachingVehiclesFromIL_EW()
         vehVolumeNS += getNumberOfApproachingVehiclesFromIL_NS()  
@@ -152,17 +126,8 @@ def run():
         #get data
         if step == nextPhaseDetermination:
             activePhase = traci.trafficlights.getPhase(intersectionId)
-            nextPhase = determineNextGreenPhase(activePhase, vehVolumeEW, vehVolumeNS)
-            greenPhaseDuration = determinePhaseLength(activePhase, nextPhase, vehVolumeEW, vehVolumeNS)
-            
-            
-            #reset vehicles volumes for approaching edges for chose phase
-            if nextPhase == 0:
-                totalVolumeEW += vehVolumeEW
-                vehVolumeEW = 0
-            else: 
-                totalVolumeNS += vehVolumeNS
-                vehVolumeNS = 0
+            nextPhase = determineNextGreenPhase(activePhase)
+            greenPhaseDuration = determinePhaseLength()
             
             setLastGreenPhaseDuration(activePhase, nextPhase, greenPhaseDuration)
             print('Phase switch: -step',step, 'oldPhase', activePhase, 'newGreen:', nextPhase,'time:', greenPhaseDuration)
@@ -215,7 +180,7 @@ if __name__ == "__main__":
     testPath = os.path.dirname(sumoConfig)
     print(endTime, intersectionId, sumoConfig, testPath)
 
-    # first, generate the route file for this simulation
+    # first, read the network information for this intersection
     read_NetworkData(testPath)
 
     # this is the normal way of using traci. sumo is started as a

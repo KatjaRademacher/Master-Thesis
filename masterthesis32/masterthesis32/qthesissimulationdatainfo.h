@@ -1,3 +1,11 @@
+/**
+* helpful class to keep information on a simulation test 
+* organised and transfer it between elements
+*
+* @autor: Katja Rademacher
+* @date: 29.11.2016
+*/
+
 #ifndef QTHESISSIMULATIONDATAINFO_H
 #define QTHESISSIMULATIONDATAINFO_H
 

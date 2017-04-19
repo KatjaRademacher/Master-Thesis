@@ -1,3 +1,8 @@
+/**
+* @autor: Katja Rademacher
+* @date: 29.11.2016
+*/
+
 #include "qthesissimulationdatainfo.h"
 
 QThesisSimulationDataInfo::QThesisSimulationDataInfo(QObject *parent)
